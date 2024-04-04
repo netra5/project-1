@@ -1,0 +1,138 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cea5a5; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #242526; /* Dark gray header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f3f37b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Yellow on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* About section Styling */
+#about {
+    background-color: #8edaf3; /* Lighter gray background for about section */
+    padding: 40px 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    margin-left: 20px;
+}
+
+.about-text h2 {
+    color: #333;
+}
+
+.about-text p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Contact section Styling */
+#contact {
+    background-color: #87f7f3; /* Light gray background for contact section */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons .icon {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons .icon:hover {
+    color: #ffd700; /* Yellow on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
